@@ -1,3 +1,32 @@
+//FONTS
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
+
+// COLORS
+@back: #2e2e36;
+@color_text: #fff;
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: @color_text;
+	background: @back;
+	font-size: 20px;
+}
 .Header {
-  color: #e01010;
+	margin: 20px auto;
+	color: @color_text;
+	.header_title{
+		font-weight: 700;
+		font-size:24px;
+	}
+	.header_desc{
+		font-weight: 400;
+		font-size:16px;
+	}
+}
+
+.Page{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	color: @color_text;
 }
